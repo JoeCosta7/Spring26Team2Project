@@ -1,0 +1,93 @@
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+button, a.btn{
+  background-color: #4FBC86 !important;
+  color: white !important;
+  border: none;
+  padding: 15px !important;
+  width: 60% !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  border-radius: 15px !important;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.login {
+  background-color: #005A43 !important;
+}
+ 
+.rightside h3 {
+  font-size: 30px !important;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+}
+
+.rightside h1 {
+  font-size: 50px;
+}
+
+.welcome {
+  font-size: 75px;
+  color: #4FBC86;
+}
+
+.rightside {
+  background-color: #005A43;
+  color: white;
+  overflow: hidden;
+}
+
+.img-behind {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0; 
+  width: 55%;
+}
+
+.rightside h1,
+.rightside h3 {
+  position: relative;
+  z-index: 1;
+}
+
+.enter-info {
+  border-color: #005A43 !important;
+  padding: 15px !important;
+  width: 100% !important;   /* FIX */
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  border-radius: 15px !important;
+  max-width: 600px;
+}
+
+#leftside form .btn {
+  width: 100% !important;   /* FIX */
+  max-width: 600px;
+}
+
+#leftside form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+}
